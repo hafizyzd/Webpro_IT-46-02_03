@@ -8,13 +8,33 @@
     <link rel="icon" href="{{ asset('assets/Logo_hes.png') }}" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <style>
+        /* Pastikan body dan html memiliki tinggi 100% */
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        /* Gunakan flexbox untuk body */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Untuk section content, biarkan ia berkembang */
+        .publication-section {
+            flex-grow: 1;
+        }
+    </style>
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="../Assets/logo_heslab.svg" alt="HESLab Logo" width="80">
+                <img src="/assets/hes_logo.png" alt="HESLab Logo" width="80">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +45,7 @@
                     <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="/members">Members</a></li>
                     <li class="nav-item"><a class="nav-link active" href="">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://hesvault.site/">Peminjaman Alat Lab</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://hesvault.my.id/">Peminjaman Alat Lab</a></li>
                     <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
                 </ul>
             </div>
@@ -33,7 +53,7 @@
     </nav>
 
     <!-- Publication Section -->
-    <section class="publication-section animate-on-scroll">
+    <section class="publication-section animate-on-scroll mt-5 pt-5">
         <div class="container">
             <h2 class="text-center">Publication</h2>
             <table class="table table-striped">
@@ -59,8 +79,9 @@
         </div>
     </section>
 
+
     <!-- footer -->
-    <footer class="footer animate-on-scroll py-3" style="background-color: #0033A0;">
+    <footer class="footer animate-on-scroll py-3"  style="background: linear-gradient(to bottom, #0033A0, #01091c);">
         <div class="container">
                 <div class="col-md-4 text-center text-md-start text-white">
                     <h5 class="fw-bold">Hardware and Embedded System Laboratorium</h5>

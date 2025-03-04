@@ -11,10 +11,10 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="../Assets/logo_heslab.svg" alt="HESLab Logo" width="80">
+                <img src="assets/hes_logo.png" alt="HESLab Logo" width="80">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
                     <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                     <li class="nav-item"><a class="nav-link active" href="">Members</a></li> 
                     <li class="nav-item"><a class="nav-link" href="/publication">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://hesvault.site/">Peminjaman Alat Lab</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://hesvault.my.id/">Peminjaman Alat Lab</a></li>
                     <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
                 </ul>
             </div>
@@ -33,7 +33,7 @@
     </nav>
 
     <!-- Members Section -->
-    <section class="members-section animate-on-scroll">
+    <section class="members-section animate-on-scroll mt-5 pt-5">
         <div class="container">
             <h2 class="text-center mt-4">Members of HESLab</h2><br>
             <div class="row justify-content-start">
@@ -89,7 +89,7 @@
     <br>
     
     <!-- Footer -->
-    <footer class="footer animate-on-scroll py-3" style="background-color: #0033A0;">
+    <footer class="footer animate-on-scroll py-3" style="background: linear-gradient(to bottom, #0033A0, #01091c);">
         <div class="container">
                 <div class="col-md-4 text-center text-md-start text-white">
                     <h5 class="fw-bold">Hardware and Embedded System Laboratorium</h5>

@@ -14,7 +14,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-                <img src="/assets/logo_heslab.svg" alt="HESLab Logo" width="80">
+                <img src="/assets/hes_logo.png" alt="HESLab Logo" width="80">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
                     <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#members-section">Members</a></li>
                     <li class="nav-item"><a class="nav-link" href="/publication">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://hesvault.site/">Peminjaman Alat Lab</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://hesvault.my.id/">Peminjaman Alat Lab</a></li>
                     <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
                 </ul>
             </div>
@@ -173,23 +173,23 @@
         </div>
     </section>
 
-    <footer class="footer py-2" style="background-color: #0033A0;">
+        <footer class="footer py-4" style="background: linear-gradient(to bottom, #0033A0, #01091c);">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Google Maps -->
-                <div class="col-md-6 mb-4 mb-md-0">
-                    <div>
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" 
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.4567174397025!2d107.62863989221058!3d-6.97117907951102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e739aef42ad7%3A0x9fb4de87210b8009!2sTelkom%20University%20Landmark%20Tower!5e0!3m2!1sen!2sid!4v1614245835280!5m2!1sen!2sid" 
-                            style="border:0px; height:230px; width:600px;" allowfullscreen="" loading="lazy"></iframe>
+                            style="border:0px; height:230px; width:100%;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
 
                 <!-- Logo and Text -->
-                <div class="col-md-6 text-center text-md-start text-white">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <img class="me-1" src="/Assets/telkom_putih.png" class="img-fluid" style="max-height: 100px;" alt="Telkom Logo">
-                        <img class="ms-1" src="/Assets/fif.png" class="img-fluid" style="max-height: 100px;" alt="Telkom FIF">
+                <div class="col-12 col-md-6 text-center text-md-start text-white">
+                    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-3">
+                        <img class="me-1 mb-2 mb-md-0" src="/Assets/logo_telkom.png" class="img-fluid" style="max-height: 70px;" alt="Telkom Logo">
+                        <img class="ms-1" src="/Assets/logo_Fakultas.png" class="img-fluid" style="max-height: 70px;" alt="Telkom FIF">
                     </div>
                     <h5 class="fw-bold">Hardware and Embedded System Laboratorium</h5>
                     <p class="mb-1">
@@ -199,12 +199,13 @@
                         <i class="fab fa-linkedin"></i>
                         <a class="text-white text-decoration-none" href="https://www.linkedin.com/company/hardware-and-embedded-system/" target="_blank">LinkedIn</a>
                     </p>
-                    <p class="mb-0 text-white">© Copyright 2024, All rights reserved</p>
                 </div>
             </div>
         </div>
+        <div class="p-3">
+            <p class="mb-0 text-white text-center">© Copyright 2024, All rights reserved</p>
+        </div>
     </footer>
-
 
     <script src="/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
